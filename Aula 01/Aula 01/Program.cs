@@ -10,7 +10,7 @@ Console.WriteLine("Amaro \n");
   
      Console.WriteLine("Meu nome é " + primeiroNome + nomeMeio + ultimoNome);
         
-     int idade = 26;
+     //int idade = 26;
       
     Console.WriteLine($"Meu nome é   {primeiroNome}  {nomeMeio} {ultimoNome} e minha idade é {idade}");
     Console.WriteLine("Escreva o seu Nome  ");

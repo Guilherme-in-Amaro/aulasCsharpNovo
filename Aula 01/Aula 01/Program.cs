@@ -1,20 +1,29 @@
-﻿
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Guilherme\n");
-Console.WriteLine("Amaro \n");
+﻿float numero1, numero2;
 
-    string nomeCompleto = "Guilherme Amaro Pereira Rodrigues";
-    string primeiroNome = "Guilherme";
-    string ultimoNome = "Rodrigues";
-    string nomeMeio = "Amaro Pereira";
-  
-     Console.WriteLine("Meu nome é " + primeiroNome + nomeMeio + ultimoNome);
-        
-     //int idade = 26;
-      
-    Console.WriteLine($"Meu nome é   {primeiroNome}  {nomeMeio} {ultimoNome} e minha idade é {idade}");
-    Console.WriteLine("Escreva o seu Nome  ");
-    
-    string nome = Console.ReadLine();
-    
-    Console.WriteLine($"Ola {nome}, Boa noite !");
+string operacao; 
+
+
+Console.WriteLine("digite o primeiro numero");
+numero1 = float.Parse(Console.ReadLine());
+
+Console.WriteLine("escreva o segundo numero");
+numero2 = float.Parse(Console.ReadLine());
+
+Console.WriteLine("digite a operação");
+operacao = Console.ReadLine();
+
+if (operacao == "+")
+{
+    Console.WriteLine(numero1 + numero2);
+}
+if (operacao == "-")
+{ Console.WriteLine(numero1 - numero2); 
+}
+if (operacao == "*")
+{ Console.WriteLine(numero1 * numero2); }
+
+if (numero2 != 0)
+{ Console.WriteLine(numero1/numero2); }
+
+    else
+{ Console.WriteLine("O numero indicado nao pode ser dividido por zero"); }

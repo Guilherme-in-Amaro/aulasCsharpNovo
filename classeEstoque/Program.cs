@@ -16,8 +16,20 @@
             Retangulo retangulo = new Retangulo(); //instanciando
             Console.WriteLine("A Area do retangulo é " + retangulo.Area());
 
-            Retangulo retangulo = new Retangulo(); //instanciando
+           
             Console.WriteLine("O Perimetro do retangulo é " + retangulo.Perimetro());
+
+
+
+            ContaCorrente  conta = new ContaCorrente(); //instanciando
+            conta.Saldo = 200;
+            conta.Numero = 155;
+            conta.Titular = "Diego Aquila";
+            Console.WriteLine(conta.Deposito(500));
+            
+            Console.WriteLine (conta.Saque(200));
+           
+            Console.WriteLine(conta.Saldo);
 
         }
 

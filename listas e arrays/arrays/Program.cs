@@ -8,6 +8,7 @@
             double[] notas = new double[8];
             string[] arrayFrutas = { "banana", "maçã", "pera" };
 
+            Console.WriteLine(string.Join("-",arrayFrutas)); //método Join 
 
             Console.WriteLine(arrayFrutas[1]);
 

@@ -13,14 +13,14 @@ namespace classeEstoque
         public string Titular;          //Atributos
         public double Saldo;
 
-        public double Deposito(double valorDeposito)
+        public double Deposito(double valorDeposito) //metodo
         {
 
             Saldo = Saldo + valorDeposito;
             return Saldo;
         }
 
-        public double Saque(double valorSaque)
+        public double Saque(double valorSaque) //metodo
         {
             Saldo = Saldo - valorSaque;
             return Saldo;

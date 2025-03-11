@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace arrays
 {
-    internal class Aluno
+    internal class Aluno   //CRTL + .
     {
         public string nome;
-        public int matricula;
+        public int matricula;        //DECLARANDO
         public string curso;
         public string email;
         public string telefone;

@@ -17,7 +17,11 @@
             fruitlist.Add("maçã");                                              //Listas
             fruitlist.Add("pera");
 
+            foreach (string fruta in fruitlist) //foreach (para cada)
 
+            {
+                Console.WriteLine(fruta);
+            }
         }
     }
 }
